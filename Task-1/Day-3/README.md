@@ -44,30 +44,35 @@ Wi-Fi connected!
 IP Address: 10.56.231.229
 RSSI: -24 dBm
 Wi-Fi Channel: 1
-Connection Recovery
+````
+
+### Connection Recovery
 
 When Wi-Fi is disconnected, the ESP32 automatically attempts to reconnect.
 
 The retry delay uses exponential backoff:
 
+```text
 1s → 2s → 4s → 8s → 16s → 30s maximum
+```
 
 After successful reconnection, the backoff delay is reset to 1 second.
 
-Testing
+### Testing
 
 The following were successfully tested:
 
-Wi-Fi Station Mode
-Wi-Fi connection
-IP address reporting
-RSSI reporting
-Channel reporting
-Periodic health checks
-Disconnection detection
-Automatic retry
-Exponential backoff
-Wi-Fi recovery
-Result
+* Wi-Fi Station Mode
+* Wi-Fi connection
+* IP address reporting
+* RSSI reporting
+* Channel reporting
+* Periodic health checks
+* Disconnection detection
+* Automatic retry
+* Exponential backoff
+* Wi-Fi recovery
+
+### Result
 
 The ESP32 successfully connects to Wi-Fi, monitors connection health, detects network loss, retries using exponential backoff, and automatically recovers when the network becomes available.
