@@ -1,6 +1,3 @@
-Yes — for GitHub, create **`documentation.md`** inside `Day-4` and paste this complete content:
-
-````markdown
 # Day 4 — NTP Time Synchronization
 
 ## 1. Introduction
