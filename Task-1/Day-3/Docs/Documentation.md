@@ -411,5 +411,3 @@ The ESP32 can now connect to a Wi-Fi network, monitor its connection status, det
 
 **Day 3 — Wi-Fi Station Mode & Connection Manager: Completed ✅**
 
-```
-```
